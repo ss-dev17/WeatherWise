@@ -50,8 +50,8 @@ toggleBtn.onclick = () => {
     searchInput.style.color = "#000";
     container.style.border = "2px solid #000";
   }
-
   isLight = !isLight;
+  toggleBtn.textContent = isLight ? "🌙": "🔆";
 };
 
 const messages = [
