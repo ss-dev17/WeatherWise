@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <title>WeatherWise</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-title">WeatherWise</div>
+    <button id="toggle-btn">🌙</button>
+  </nav>
+
+  <div class="tagline">
+    <h2>" We forecast what you forgot to look at."</h2>
+  </div>
+
+    <div class="container">
+      <div class="floating-label">
+        <input type="search" id="locationInput" placeholder=" " required />
+        <label id="location-label" for="locationInput">Provide Location</label>
+      </div>
+      <button id="open-dialogbox">Check Weather</button>
+    </div>
+
+  <div id="dialog-box">
+    <div class="dialog-box-content">
+      <span id="close-dialogbox">&times;</span>
+      <p id="dialog-msg"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
